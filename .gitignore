@@ -1,0 +1,5 @@
+# created by virtualenv automatically
+/bin/
+/lib/
+tree_script.sh
+.env
