@@ -1,4 +1,4 @@
-from common.import_input import import_input_file, read_input
+from common.input_handling import import_input_file, read_input
 import unittest
 
 
@@ -19,7 +19,6 @@ def solution_part_b(input_txt: str):
 
 
 class Test(unittest.TestCase):
-    import_input_file(__file__)
     def test_example_a(self):
         input_example_1 = """\
         """
